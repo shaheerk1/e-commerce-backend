@@ -27,7 +27,7 @@ app.use(express.json({ limit: "1mb" }));
 app.use(
   cors({
     
-    origin: "*",
+    origin: "https://randomecomapp.netlify.app",
     
   })
 );
