@@ -26,9 +26,7 @@ app.use(express.static("public"));
 app.use(express.json({ limit: "1mb" }));
 app.use(
   cors({
-    
     origin: "https://randomecomapp.netlify.app",
-    
   })
 );
 // app.use(cookieParser());
